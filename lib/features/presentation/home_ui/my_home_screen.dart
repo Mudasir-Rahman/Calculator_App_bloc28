@@ -171,7 +171,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
                   CalculatorButton(
                     label: '=',
                     onTap: () => context.read<CalculatorBloc>().add(
-                      CalculatorEvaluateEvent(),
+                      CalculatorExpressionEvent(),
                     ),
                     color: Colors.green,
                     textColor: Colors.white,
